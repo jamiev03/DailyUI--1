@@ -9,7 +9,7 @@ body {
 }
 .container {
     width: 500px;
-    height: 300px;
+    height: 285px;
     background: #2c363f;
     border-radius: 25px;
     margin: 100px auto;
@@ -18,8 +18,8 @@ body {
     width: 100%;
     height: auto;
     background: #596869;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     color: white;
 }
 .upper h2 {
@@ -28,4 +28,26 @@ body {
 }
 .upper p {
     padding: 0 0 22px 30px;
+}
+.form {
+    padding: 30px 0 5px 30px;
+}
+.form input {
+    width: 437px;
+    height: 35px;
+}
+.form p {
+    padding: 3px 0 28px 0;
+    font-size: 14px;
+    color: #596869;
+}
+.btn {
+    background: #f6ae2d;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
 }
